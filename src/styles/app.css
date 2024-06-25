@@ -1,0 +1,37 @@
+h1 {
+    font-size: 30px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+input {
+    width: 300px;
+    height: 34px;
+    border-color: #ebebeb;
+    border-radius: 3px;
+    border-style: 1px solid;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 10px 10px 30px; 
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px; 
+    pointer-events: none;
+}
+
+.campoFiltros {
+    width: 300px;
+    height: 35px;
+    border-color: #f0e4e4;
+    border-radius: 3px;
+    border-style: 1px solid;
+    flex-direction: row;
+}
